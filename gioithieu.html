@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - Trang sức PNJ</title>
+
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+        
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["nhan", "bong tai","day chuyen"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p>Chào mừng đến với trang web bán trang sức  của chúng tôi!
+                </p>
+                <br />
+                <p>
+                    PNJ là thương hiệu hàng đầu tại Việt Nam trong lĩnh vực chế tác và bán lẻ trang sức bằng vàng, bạc, đá quý. Sản phẩm PNJ ngày càng được các nước tại thị trường Châu Á và Châu Âu ưu chuộng.<br />
+                    THiện tại, PNJ Group có gần 7000 nhân viên với hệ thống bán sỉ, và gần 400 cửa hàng bán lẻ trải rộng trên toàn quốc; Công ty PNJP có công suất sản xuất đạt trên 4 triệu sản phẩm/năm, được đánh giá là một trong những nhà máy chế tác nữ trang lớn nhất khu vực Châu Á với đội ngũ gần 1.500 nhân viên.<br />
+                    Tập thể PNJ đã cùng nhau chung tay xây dựng văn hoá cảm thông, chia sẻ bằng những hoạt động hỗ trợ cộng đồng, thành lập quỹ từ thiện PNJ, chương trình “mái ấm PNJ” mang đến một cuộc sống tốt đẹp cho người dân nghèo, ươm mầm phát triển tài năng.
+                    <br />
+                    Để tiếp tục khẳng định vị thế PNJ tại Việt Nam và thế giới, chúng tôi đang mở rộng hệ thống phát triển kinh doanh và cần bổ sung những ứng viên tài năng vào đội ngũ nhân sự chuyên nghiệp của mình.
+                    Chúng tôi cũng cung cấp giao hàng nhanh chóng và đáng tin cậy, đảm bảo rằng sản phẩm của bạn sẽ được giao đến tay bạn trong thời gian ngắn nhất có thể.
+                </p>
+                <P>
+                    Để tiếp tục khẳng định vị thế PNJ tại Việt Nam và thế giới, chúng tôi đang mở rộng hệ thống phát triển kinh doanh và cần bổ sung những ứng viên tài năng vào đội ngũ nhân sự chuyên nghiệp của mình.
+                </P>
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>
