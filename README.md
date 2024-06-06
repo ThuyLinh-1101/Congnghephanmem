@@ -18,7 +18,7 @@ Yêu cầu dành cho khách hàng
   
 -	Khách hàng có thể xem lại lịch sử giao dịch và chỉnh sửa thông tin cá nhân.
 
-Yêu cầu dành cho Admin
+  Yêu cầu dành cho Admin
 -	Quản lý toàn bộ website.
   
 -	Thêm các sản phẩm mới ra mắt cho website, xóa, sửa các mặt hàng mà cửa hàng không còn kinh doanh.
@@ -26,5 +26,6 @@ Yêu cầu dành cho Admin
 -	Cập nhật biến động giá của sản phẩm.
   
 -	Nhận và xử lý đơn hàng khi khách hàng đặt mua.
-	Thống kê các đơn hàng, doanh thu, sản phẩm...
+  
+-	Thống kê các đơn hàng, doanh thu, sản phẩm...
 
