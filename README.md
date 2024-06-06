@@ -1,13 +1,13 @@
 Phạm vi của đồ án nằm trong giới hạn môn công nghệ phần mềm
 -	Ngôn ngữ lập trình được sử dụng:
   
-+	JavaScript,
-+	SQL
+	JavaScript,
+	SQL
 
 -	Phần mềm được sử dụng
 
-+	Visual Studio Code,
-+	SQL Server
+	Visual Studio Code,
+	SQL Server
   
 Yêu cầu dành cho khách hàng
 -	Khách hàng sẽ chọn mức giá cần mua,loại trang sức, số lượng đánh giá,... theo nhu cầu. Hệ thống sẽ lọc ra các mẫu trang sức theo yêu cầu của khách hàng.
